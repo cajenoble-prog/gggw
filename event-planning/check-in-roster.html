@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Houston GGGW 2026 — Event-Day Check-In Roster</title>
+  <style>
+    @page { size: Letter landscape; margin: 0.35in; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      color: #17233d;
+      background: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 8.5pt;
+      line-height: 1.2;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      width: 10.3in;
+      height: 7.72in;
+      position: relative;
+      page-break-after: always;
+      overflow: hidden;
+    }
+    .page:last-child { page-break-after: auto; }
+    header {
+      display: grid;
+      grid-template-columns: 1.25in 1fr auto;
+      gap: 0.18in;
+      align-items: start;
+      border-bottom: 3px solid #6f3fa0;
+      padding-bottom: 0.08in;
+      margin-bottom: 0.08in;
+    }
+    .logo {
+      width: 1.2in;
+      height: 0.72in;
+      object-fit: contain;
+      object-position: left center;
+    }
+    .eyebrow {
+      margin: 0 0 2px;
+      color: #6f3fa0;
+      font-size: 8pt;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: 19pt;
+      line-height: 1;
+      color: #17233d;
+    }
+    .subtitle { margin: 4px 0 0; font-size: 9pt; }
+    .meta {
+      border: 1px solid #9ca6b8;
+      border-radius: 4px;
+      padding: 5px 8px;
+      min-width: 3.1in;
+      background: #f4f1f8;
+    }
+    .meta div { margin: 2px 0; }
+    .line {
+      display: inline-block;
+      min-width: 1.45in;
+      height: 11px;
+      border-bottom: 1px solid #17233d;
+      vertical-align: bottom;
+    }
+    .instructions {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 0.1in;
+      margin-bottom: 0.08in;
+    }
+    .notice {
+      border-left: 4px solid #6f3fa0;
+      background: #f4f1f8;
+      padding: 5px 8px;
+    }
+    .notice strong { color: #5b2f87; }
+    .rules {
+      border: 1px solid #aeb6c3;
+      padding: 5px 8px;
+      background: #fafbfc;
+    }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    th, td { border: 1px solid #677286; }
+    th {
+      background: #253858;
+      color: #fff;
+      font-size: 7.2pt;
+      line-height: 1.1;
+      padding: 4px 2px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    td { height: 0.205in; padding: 2px 3px; vertical-align: middle; }
+    tbody tr:nth-child(even) td { background: #f6f7f9; }
+    .center { text-align: center; }
+    .small { font-size: 7pt; }
+    .col-num { width: 0.28in; }
+    .col-id { width: 6.15in; }
+    .col-count { width: 1.15in; }
+    .col-photo { width: 0.64in; }
+    .col-ready { width: 0.78in; }
+    .col-time { width: 1.55in; }
+    .col-status { width: 0.95in; }
+    .col-initial { width: 0.55in; }
+    .legend {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 4px;
+      color: #39465d;
+      font-size: 7.2pt;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 0.12in;
+      margin-top: 0.08in;
+    }
+    .box { border: 1px solid #677286; }
+    .box h2 {
+      margin: 0;
+      padding: 4px 7px;
+      color: #fff;
+      background: #6f3fa0;
+      font-size: 9pt;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .box-body { padding: 5px 7px; }
+    .totals-grid {
+      display: grid;
+      grid-template-columns: auto 0.55in auto 0.55in;
+      gap: 5px 7px;
+      align-items: end;
+    }
+    .write-box { height: 0.22in; border: 1px solid #17233d; background: #fff; }
+    .signoff-grid {
+      display: grid;
+      grid-template-columns: auto 1fr auto 0.8in;
+      gap: 5px 7px;
+      align-items: end;
+    }
+    .footer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #b7bec9;
+      padding-top: 4px;
+      color: #505c70;
+      font-size: 7pt;
+    }
+    .pending { font-weight: 700; color: #7a3d00; }
+    .roster th:nth-child(3),
+    .roster td:nth-child(3),
+    .roster th:nth-child(4),
+    .roster td:nth-child(4),
+    .roster th:nth-child(7),
+    .roster td:nth-child(7),
+    .roster th:nth-child(8),
+    .roster td:nth-child(8),
+    .roster th:nth-child(10),
+    .roster td:nth-child(10),
+    .roster th:nth-child(11),
+    .roster td:nth-child(11) { display: none; }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <header>
+      <img class="logo" src="../gggwimages/gpa1.png" alt="Greyhound Pets of America Houston logo">
+      <div>
+        <p class="eyebrow">Greyhound Pets of America Houston</p>
+        <h1>Event-Day Check-In Roster</h1>
+        <p class="subtitle"><strong>Great Global Greyhound Walk — Houston</strong> · Mythical Mutts · Sunday, September 27, 2026</p>
+      </div>
+      <div class="meta">
+        <div><strong>Sheet:</strong> 1 of 2 · Rows 1–25</div>
+        <div><strong>Venue/facility:</strong> <span class="line"></span></div>
+        <div><strong>Check-in lead:</strong> <span class="line"></span></div>
+      </div>
+    </header>
+
+    <table class="roster" aria-label="Check-in roster rows 1 through 25">
+      <thead>
+        <tr>
+          <th class="col-num">#</th>
+          <th class="col-id">Name</th>
+          <th class="col-count">Exp.<br>people</th>
+          <th class="col-count">Exp.<br>hounds</th>
+          <th class="col-count">People</th>
+          <th class="col-count">Hounds</th>
+          <th class="col-photo">Photo<br>Y / N</th>
+          <th class="col-ready">Fixed lead /<br>muzzle ready</th>
+          <th class="col-time">Arrival<br>time</th>
+          <th class="col-status">Return / departure<br>status + time</th>
+          <th class="col-initial">Staff<br>initials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="center">1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">6</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">12</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">14</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">15</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">23</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">24</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">25</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+    <div class="footer"><span></span><span>Houston GGGW 2026 · Page 1 of 2</span></div>
+  </section>
+
+  <section class="page">
+    <header>
+      <img class="logo" src="../gggwimages/gpa1.png" alt="Greyhound Pets of America Houston logo">
+      <div>
+        <p class="eyebrow">Greyhound Pets of America Houston</p>
+        <h1>Event-Day Check-In Roster</h1>
+        <p class="subtitle"><strong>Great Global Greyhound Walk — Houston</strong> · Mythical Mutts · Sunday, September 27, 2026</p>
+      </div>
+      <div class="meta">
+        <div><strong>Sheet:</strong> 2 of 2 · Rows 26–50</div>
+        <div><strong>Venue/facility:</strong> <span class="line"></span></div>
+        <div><strong>Check-in lead:</strong> <span class="line"></span></div>
+      </div>
+    </header>
+
+    <table class="roster" aria-label="Check-in roster rows 26 through 50">
+      <thead>
+        <tr>
+          <th class="col-num">#</th>
+          <th class="col-id">Name</th>
+          <th class="col-count">Exp.<br>people</th>
+          <th class="col-count">Exp.<br>hounds</th>
+          <th class="col-count">People</th>
+          <th class="col-count">Hounds</th>
+          <th class="col-photo">Photo<br>Y / N</th>
+          <th class="col-ready">Fixed lead /<br>muzzle ready</th>
+          <th class="col-time">Arrival<br>time</th>
+          <th class="col-status">Return / departure<br>status + time</th>
+          <th class="col-initial">Staff<br>initials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="center">26</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">27</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">28</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">29</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">31</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">32</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">33</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">34</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">35</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">36</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">37</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">38</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">39</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">40</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">41</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">42</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">43</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">44</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">45</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">46</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">47</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">48</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">49</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="center">50</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+
+    <div class="summary">
+      <div class="box">
+        <h2>Attendance reconciliation</h2>
+        <div class="box-body totals-grid">
+          <strong>Guest attendees</strong><div class="write-box"></div><strong>Volunteers onsite</strong><div class="write-box"></div>
+          <strong>Total people onsite</strong><div class="write-box"></div><span></span><span></span>
+          <strong>Total sighthounds attending</strong><div class="write-box"></div><strong>Other dogs, if permitted</strong><div class="write-box"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h2>Count verification and submission</h2>
+        <div class="box-body signoff-grid">
+          <strong>Verifier 1</strong><span class="line"></span><strong>Time</strong><span class="line"></span>
+          <strong>Verifier 2</strong><span class="line"></span><strong>Time</strong><span class="line"></span>
+          <strong>GGGW total submitted by</strong><span class="line"></span><strong>Time</strong><span class="line"></span>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span></span><span>Houston GGGW 2026 · Page 2 of 2</span></div>
+  </section>
+</body>
+</html>

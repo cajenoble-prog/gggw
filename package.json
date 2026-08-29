@@ -1,0 +1,15 @@
+{
+  "name": "gggw26-planning-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Utilities for reviewing the Houston GGGW 2026 planning documents.",
+  "scripts": {
+    "render:pdf": "node scripts/render-markdown-pdf.js"
+  },
+  "devDependencies": {
+    "md-to-pdf": "5.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
