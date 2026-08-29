@@ -1,6 +1,8 @@
 # Houston Great Global Greyhound Walk 2026
 
-![Houston Great Global Greyhound Walk 2026](gggwimages/gggw265.avif)
+<p align="center">
+	<img src="gggwimages/gpa1.png" alt="Greyhound Pets of America Houston logo" width="300">
+</p>
 
 Planning repository for the **2026 Houston Great Global Greyhound Walk**, affiliated with **Greyhound Pets of America Houston**.
 
