@@ -21,8 +21,8 @@ Only bring items permitted in writing by Memorial Park.
 - [ ] Adoption/foster/volunteer materials
 - [ ] Approved donation QR sign, if permitted
 - [ ] Table covering and clips
-- [ ] One approved extra table, if needed
-- [ ] Approved weighted canopy, if needed
+- [ ] One approved table
+- [ ] One approved weighted 10 × 10 ft canopy
 - [ ] Chairs, if approved/needed
 
 ## Safety and comfort
@@ -30,6 +30,8 @@ Only bring items permitted in writing by Memorial Park.
 - [ ] Human first-aid kit
 - [ ] Canine first-aid kit
 - [ ] Emergency water
+- [ ] Large water dispenser
+- [ ] Large water bowls for the hounds
 - [ ] Individual/disposable dog-water containers
 - [ ] Cooling towels
 - [ ] Ice/cooler for emergency use

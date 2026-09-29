@@ -19,7 +19,7 @@ Join Greyhound Pets of America Houston for a relaxed, noncompetitive leashed sig
 ## Registration page essentials
 
 - Sunday, September 27, 2026
-- Target public time: 8:00–10:30 a.m.
+- Public time: 9:00 a.m.–12:00 p.m.
 - Exact approved facility and parking instructions
 - Number of people and sighthounds per household
 - Fixed-length leash requirement
@@ -59,7 +59,7 @@ Include:
 
 ### Proceeding
 
-The Houston GGGW is proceeding as planned. Check-in opens at 8:00 a.m. at the confirmed Memorial Park picnic area. Conditions will be monitored, and participants may choose the shorter route or picnic only.
+The Houston GGGW is proceeding as planned. Check-in opens at 9:00 a.m. at the confirmed Memorial Park picnic area. Conditions will be monitored, and participants may choose the shorter route or picnic only.
 
 ### Modified
 

@@ -16,7 +16,7 @@ Update status as **Not started**, **In progress**, **Blocked**, or **Complete**.
 | 10 | Register walk with GGGW | Event lead | 2026-09-08 | Not started | Venue permission secured |
 | 11 | Build capped registration and waitlist | Registration lead | 2026-09-08 | Not started | Approved event details |
 | 12 | Obtain GPA Houston branding approval | GPA sponsor | 2026-09-08 | Not started | Draft description/artwork |
-| 13 | Recruit six volunteers | Volunteer lead | 2026-09-11 | Not started | Role descriptions |
+| 13 | Recruit 3–4 volunteers | Volunteer lead | 2026-09-11 | In progress | Distribute volunteer and equipment request |
 | 14 | Identify emergency veterinary hospital | Safety lead | 2026-09-11 | Not started | Confirm Sunday hours |
 | 15 | Publish registration | Communications lead | 2026-09-10 | Not started | Venue approval and form |
 | 16 | Inventory and procure equipment | Operations lead | 2026-09-16 | Not started | Venue equipment rules |
@@ -31,6 +31,8 @@ Update status as **Not started**, **In progress**, **Blocked**, or **Complete**.
 | 25 | Submit final sighthound count | Event lead | 2026-09-27 18:00 | Not started | Reconciled attendance |
 | 26 | Complete expense and lessons-learned closeout | Event lead | 2026-10-02 | Not started | Receipts and feedback |
 | 27 | Design event-day check-in roster | Organizer | 2026-08-29 | Complete | Final PDF and editable source created; logo use remains subject to task 12 |
+| 28 | Distribute volunteer and equipment request | Volunteer lead | 2026-09-02 | Not started | PDF created; use GPA Houston-approved channels |
+| 29 | Confirm requested GPA Houston equipment and materials | Operations lead | 2026-09-16 | Not started | Inventory responses and written venue equipment rules |
 
 ## Blockers
 

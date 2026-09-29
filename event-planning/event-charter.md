@@ -7,7 +7,6 @@ Celebrate sighthounds, promote responsible ownership and adoption, and connect t
 ## Objectives
 
 - Conduct a safe, welcoming walk at Memorial Park on September 27, 2026.
-- Limit attendance to no more than 50 people, including volunteers.
 - Provide one combined check-in and Greyhound Pets of America Houston information station.
 - Offer an optional bring-your-own picnic after the walk.
 - Accurately report the total number of participating sighthounds to GGGW before 6:00 p.m. local time.
@@ -20,11 +19,9 @@ Celebrate sighthounds, promote responsible ownership and adoption, and connect t
 - Advance registration and waitlist
 - Reserved pavilion or picnic area
 - Approximately 0.75-mile designated-path walk, with a shorter turnaround
-- Required pre-walk safety briefing
 - Group photograph
 - Household BYO picnic
 - GPA Houston adoption, foster and volunteer information
-- Weather monitoring and incident response
 
 ### Excluded
 
@@ -58,13 +55,12 @@ All eligible sighthounds and sighthound mixes may participate under GGGW rules. 
 
 | Role | Assigned person | Authority |
 |---|---|---|
-| Event lead | TBD | Final operational decisions and venue liaison |
-| GPA Houston sponsor | TBD | Organizational approval and branding |
-| Safety lead | TBD | Stop/shorten/cancel recommendation |
-| Registration lead | TBD | Capacity and attendance records |
-| Volunteer lead | TBD | Staffing and assignments |
+| Event lead/Volunteer lead | Caitlyn Noble | Final operational decisions, venue liaison, and organizational approval |
+| Volunteer | TBD | Stop/shorten/cancel recommendation |
+| Volunteer | TBD | Capacity and attendance records |
+| Volunteer | TBD | Staffing and assignments |
 
-The event lead may cancel or change the format for safety or compliance. The safety lead may stop the walk immediately when conditions are unsafe.
+The event lead may cancel or change the format for safety or compliance. The volunteer assigned safety authority may stop the walk immediately when conditions are unsafe.
 
 ## Constraints and assumptions
 

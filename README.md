@@ -1,4 +1,6 @@
-
+<p align="center">
+	<img src="gggwimages/gpahlogo2.PNG" alt="Greyhound Pets of America Houston logo" width="300">
+</p>
 
 Planning repository for the **2026 Houston Great Global Greyhound Walk**, affiliated with **Greyhound Pets of America Houston**.
 

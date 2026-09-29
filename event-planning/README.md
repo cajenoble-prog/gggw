@@ -8,7 +8,7 @@ Central planning workspace for the Houston walk and bring-your-own picnic affili
 |---|---|
 | Date | Sunday, September 27, 2026 |
 | Venue | Memorial Park, Houston — exact picnic facility pending |
-| Public hours | Target: 8:00–10:30 a.m. |
+| Public hours | 9:00 a.m.–12:00 p.m. |
 | Format | Short leashed sighthound walk followed by optional bring-your-own picnic |
 | Capacity | 50 people maximum, including volunteers |
 | Host affiliation | Greyhound Pets of America Houston |
@@ -32,6 +32,7 @@ Central planning workspace for the Houston walk and bring-your-own picnic affili
 - [Printable check-in roster](check-in-roster.pdf) — approved two-page event-day attendance sheet
 - [Check-in roster source](check-in-roster.html) — editable print source for the PDF roster
 - [Equipment checklist](equipment-checklist.md) — packing and setup list
+- [Volunteer and equipment request](volunteer-equipment-request.pdf) — printable request for volunteers and GPA Houston equipment; [editable source](volunteer-equipment-request.md)
 
 ## Working rules
 

@@ -32,14 +32,14 @@ Event date: **Sunday, September 27, 2026**
 - [ ] Register the walk with GGGW.
 - [ ] Build registration form with hard capacity and waitlist.
 - [ ] Obtain approval for GPA Houston branding.
-- [ ] Recruit six volunteers.
+- [ ] Recruit 3–4 volunteers.
 - [ ] Prepare route map, parking pin and event description.
 
 **Milestone:** Event ready for controlled publication.
 
 ## September 9–13: Registration launch
 
-- [ ] Open registration for up to 45 non-volunteer attendees.
+- [ ] Open registration for up to 46–47 non-volunteer attendees, adjusted so total onsite attendance remains at or below 50.
 - [ ] Publish leash, picnic, heat and photography rules.
 - [ ] Confirm volunteer assignments.
 - [ ] Identify nearest open emergency veterinary hospital.

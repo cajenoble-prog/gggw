@@ -1,5 +1,9 @@
 # Safety and Contingency Plan
 
+<p align="center">
+	<img src="../gggwimages/gpahlogo1.PNG" alt="Greyhound Pets of America Houston logo" width="350">
+</p>
+
 ## Mandatory GGGW rules
 
 - All dogs remain on leads at all times.
@@ -24,18 +28,14 @@
 
 | Risk | Likelihood | Impact | Prevention/response | Owner |
 |---|---|---|---|---|
-| Heat stress | Medium–high | Severe | Early schedule, short route, shade, water, shorten/cancel | Safety lead |
-| Lightning/severe storm | Medium | Severe | Forecast monitoring; cancel or shelter per venue guidance | Event lead |
+| Heat stress | Medium–high | Severe | Early schedule, short route, shade, water, shorten/cancel | CN |
+| Lightning/severe storm | Medium | Severe | Forecast monitoring; cancel or shelter per venue guidance | CN |
 | Loose dog | Low | Severe | Secure equipment, fixed leashes, stop group, lost-dog protocol | All volunteers |
-| Dog conflict | Medium | High | Spacing, no greetings, staggered start, decompression zone | Marshals |
+| Dog conflict | Medium | High | Spacing, no greetings, staggered start, decompression zone | All volunteers |
 | Food guarding/ingestion | Medium | High | Household picnic, secure food, food-free zone, immediate cleanup | Picnic attendees |
-| Bicycle collision | Medium | High | Low-conflict route, marshals, keep right, yield | Route lead |
-| Hot pavement | Medium | High | Morning surface check; change route or cancel walk | Safety lead |
+| Bicycle collision | Medium | High | Low-conflict route, marshals, keep right, yield | CN |
+| Hot pavement | Medium | High | Morning surface check; change route or cancel walk | CN |
 | Wildlife encounter | Low–medium | Medium | Stay on paths; short leads; do not feed/chase wildlife | Handlers |
-| Trip/fall | Medium | Medium | Accessible route, briefing, first aid and emergency access | Safety lead |
-| Lost child/person | Low | High | Supervision requirement and check-in contact | Event lead |
-| Allergic reaction | Low | High | Household food only; each person manages allergies; call 911 | Safety lead |
-| Parking congestion | Medium | Medium | Map, arrival window, overflow instructions | Event lead |
 
 ## Weather decision framework
 
@@ -74,17 +74,17 @@ Keep dogs away from chocolate, xylitol, grapes/raisins, onions/garlic, alcohol, 
 - Designate one familiar handler to approach with approved high-value food if safe.
 - Place volunteers at vehicle exits without entering traffic.
 - Call park authorities or emergency services when public safety is threatened.
+- Call GPA Houston Emergency number.
 
 ## Emergency information to complete
 
 | Item | Detail |
 |---|---|
-| Exact facility/address | TBD |
-| GPS/map pin | TBD |
-| Best emergency entrance | TBD |
-| Nearest open emergency veterinary hospital | TBD |
-| Veterinary phone | TBD |
-| Nearest urgent care/hospital | TBD |
+| Exact facility/address | Memorial Park, N Picnic Ln, Houston TX, 77007 |
+| Nearest open emergency veterinary hospital | Gulf Coast Veterinary Specialists, 8042 Katy Fwy, Houston TX, 77024  |
+| Veterinary phone | 713-693-1111 |
+| Nearest urgent care/hospital | Memorial Herman-Urgent Care, 1911 Taylor St E, Houston TX, 77007 |
+| Nearest urgent care/hospital phone | 346-327-8553 |
 | Memorial Park contact | 713-863-8403 |
 | Emergency | 911 |
 | Houston non-emergency | 311 |
@@ -98,5 +98,3 @@ Keep dogs away from chocolate, xylitol, grapes/raisins, onions/garlic, alcohol, 
 - Waste bags and trash bags
 - Charged phones and power bank
 - Printed emergency contacts and route map
-- Incident forms, pen and clipboard
-- Flashlight or high-visibility vest if conditions warrant

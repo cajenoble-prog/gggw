@@ -64,7 +64,7 @@ Score each candidate from 1 (poor) to 5 (excellent).
 | Parking spaces and overflow | |
 | Accessible parking/drop-off | |
 | Tables and seating | |
-| Shade at 8:00–10:30 a.m. | |
+| Shade at 9:00 a.m.–12:00 p.m. | |
 | Restrooms/water | |
 | Route distance and surface | |
 | Short turnaround | |

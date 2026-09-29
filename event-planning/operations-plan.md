@@ -1,5 +1,9 @@
 # Operations Plan
 
+<p align="center">
+	<img src="../gggwimages/gpahlogo1.PNG" alt="Greyhound Pets of America Houston logo" width="350">
+</p>
+
 ## Operating model
 
 A capped, pre-registered gathering at a reserved Memorial Park picnic facility, followed by a short designated-path walk and optional household BYO picnic.
@@ -8,12 +12,10 @@ A capped, pre-registered gathering at a reserved Memorial Park picnic facility, 
 
 | Category | Planned maximum |
 |---|---:|
-| Event volunteers | 5–6 |
-| Registered attendees | 44–45 |
+| Event volunteers | 3–4 |
+| Registered attendees | 46–47 |
 | Total people onsite | 50 |
 | Dogs | Track separately; do not infer from people count |
-
-Registration closes when total confirmed people plus volunteers reaches 50.
 
 ## Site zones
 
@@ -21,8 +23,7 @@ Registration closes when total confirmed people plus volunteers reaches 50.
 2. **GPA Houston station:** Adoption, fostering and volunteering information.
 3. **Briefing/photo area:** Clear of paths and other park users.
 4. **Picnic zone:** Household groups spaced apart; food kept above ground.
-5. **Food-free decompression zone:** For dogs requiring distance.
-6. **Waste point:** Human trash and dog-waste supplies.
+5. **Waste point:** Human trash and dog-waste supplies.
 
 ## Route specification
 
@@ -30,18 +31,13 @@ Registration closes when total confirmed people plus volunteers reaches 50.
 - Short option: approximately 0.3–0.5 mile.
 - Use designated paths only.
 - Avoid road crossings, natural narrow trails and high-cycle-volume paths.
-- Place one volunteer at the turnaround when staffing permits.
 - Front marshal sets a relaxed pace; sweep marshal remains behind the final participant.
-- Route does not confer exclusive use of public paths.
 
 ## Picnic model
 
 - Each household brings, stores and consumes its own food.
 - Organizers do not provide, sell, distribute or supervise food.
-- Only nonalcoholic drinks.
 - No shared buffet or potluck.
-- No glass, grill, propane, open flame or cooking, subject to final venue rules.
-- Picnic is optional; attendees may leave after the walk.
 - Food stays secured and off the ground.
 - Dogs do not approach another household's food.
 - No distribution of treats to unfamiliar dogs.
@@ -50,32 +46,24 @@ Registration closes when total confirmed people plus volunteers reaches 50.
 
 | Role | Assigned | Arrival | Key duties |
 |---|---|---|---|
-| Event lead | TBD | 7:15 | Venue liaison, decisions and schedule |
-| Safety lead | TBD | 7:15 | Weather, route inspection and incidents |
-| Check-in/count lead | TBD | 7:30 | Roster, capacity and final dog total |
-| Front marshal | TBD | 7:30 | Leads route and controls pace |
-| Sweep marshal | TBD | 7:30 | Closes route and assists turnbacks |
-| Station/photo volunteer | TBD | 7:30 | Watches station and takes group photo |
+| Event lead | Caitlyn Noble | 7:30  | Venue liaison, decisions and schedule |
+| Safety/front marshal volunteer | CN | 8:15 | Weather, route inspection, incidents and walk pace |
+| Check-in/count/station volunteer | TBD | 8:30 | Roster, capacity, final dog total and information station |
+| Sweep/photo volunteer | TBD | 8:30 | Closes route, assists turnbacks and takes group photo |
+| Setup/cleanup support volunteer, if available | Team | 8:30 | Equipment, water, signs and cleanup |
 
 ## Check-in process
 
-1. Welcome household away from the main dog cluster.
-2. Ask for the attendee name.
 3. Record the name, number of people, number of sighthounds and arrival time on the [event-day check-in roster](check-in-roster.pdf).
-4. Confirm leash/muzzle readiness and point out the decompression zone.
-5. Provide route and picnic instructions.
-6. Direct household to a waiting area with adequate spacing.
-
-The approved roster is a two-page, 50-row landscape form. Its editable print source is [check-in-roster.html](check-in-roster.html). The second page includes attendance reconciliation and GGGW count-verification fields. Use of the GPA Houston logo remains subject to branding approval.
-
-Walk-ups are admitted only if the event lead confirms capacity remains below 50 and venue terms allow them.
+4. Provide route and picnic instructions.
+5. Direct household to a waiting area with adequate spacing.
 
 ## Parking and arrival
 
 - Publish exact facility name and map pin after approval.
 - Provide recommended entrance, primary parking and overflow instructions.
 - Identify accessible drop-off.
-- Ask attendees to arrive between 8:00 and 8:20 a.m.
+- Ask attendees to arrive between 9:00 and 9:20 a.m.
 - Encourage carpooling.
 - Prohibit parking on grass or unauthorized roads.
 
